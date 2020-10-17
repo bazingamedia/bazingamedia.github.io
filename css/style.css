@@ -111,6 +111,8 @@ CSS FOR HEADER
 ===========================*/
 .topcontainer{
 	background:#232323 url(../images/banimg.jpeg);
+	width: 100%;
+	z-index: 0;
 	overflow:hidden;
 }
 .top-fix-bar {margin-bottom: 80px;}
