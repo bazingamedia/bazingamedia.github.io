@@ -368,7 +368,7 @@ ul.s1list li{margin:40px 0 0 0;}
 }
 @media only screen and (max-width: 767px){
 .topcontainer{
-	background:#232323 url(../images/banner-mob.jpg) center -230px no-repeat;	
+	background:#232323 url(../images/banimg.jpeg) center -230px no-repeat;	
 }
 .banner{padding:20px 0 100px 0;height:558px;height:auto;}
 .bnrimg{width:150px;}
@@ -396,7 +396,7 @@ ul.s1list li{width:100%;}
 }
 @media only screen and (max-width: 479px){
 .topcontainer{
-	background:#232323 url(../images/banner-mob.jpg) center -270px no-repeat;	
+	background:#232323 url(../images/banimg.jpeg) center -270px no-repeat;	
 }
 .bnrimg{width:150px;}
 .sec1-box {padding: 0 0 46px 0;}
