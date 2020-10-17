@@ -119,7 +119,7 @@ CSS FOR HEADER
 	margin-top: -80px;
     position: relative;
     top: 80px;
-	background:white;	
+	background:rgb(128,128,128);	
 }
 .fixed-nav .header{
 	float:left;
@@ -131,7 +131,7 @@ CSS FOR HEADER
     transition: margin .3s ease-out;
 	margin-top:0;
 	height:80px;
-	background:white;
+	background:rgb(128,128,128);
 	}
 .logo{
 	float:left;
