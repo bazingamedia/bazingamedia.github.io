@@ -148,6 +148,7 @@ ul.nav li{
 	float:left;
 	display:inline-block;	
 	margin:0 16px;
+	color: black;
 	}
 ul.nav li a{
 	float:left;
@@ -167,7 +168,7 @@ ul.nav li:last-child a{
 	border-radius:5px;
 	font-size:16px;
 	line-height:32px;
-	color:black;
+	color:#ffb300;
 	text-align:center;	
 }
 #menu-wrapper {
