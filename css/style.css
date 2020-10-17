@@ -167,7 +167,7 @@ ul.nav li:last-child a{
 	border-radius:5px;
 	font-size:16px;
 	line-height:32px;
-	color:#ffb300;
+	color:black;
 	text-align:center;	
 }
 #menu-wrapper {
@@ -232,7 +232,7 @@ ul.nav li:last-child a{
 	font-size:18px;
 	padding:10px 20px 10px 20px;
 	text-align:left;
-	color:black;
+	color:#000;
 	display:block;
 	border-bottom:1px dotted #000;	
 }
