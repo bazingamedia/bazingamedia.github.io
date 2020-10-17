@@ -52,3 +52,4 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+theme: jekyll-theme-cayman
