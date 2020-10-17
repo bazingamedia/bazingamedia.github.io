@@ -281,14 +281,12 @@ h1{
 	text-align:center;
 	padding:4px 0 0 0;
 }
-ul.bnrbtn-list{padding:20px 0 0 0;text-align:center;}
+ul.bnrbtn-list{padding:20px 0 0 0;text-align:center; background-color: 	rgb(255,0,0);}
 ul.bnrbtn-list li{
 	display:inline-block;
 	margin:10px 8px;
 }
-bnrbtn-list:hover{
-background-color:rgb(255,0,0) ;
-}
+
 /*================start section1===================*/
 .sec1{padding:0 0 60px 0;}
 .sec1-box{
