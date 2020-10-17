@@ -148,7 +148,6 @@ ul.nav li{
 	float:left;
 	display:inline-block;	
 	margin:0 16px;
-	color: black;
 	}
 ul.nav li a{
 	float:left;
@@ -156,7 +155,7 @@ ul.nav li a{
 	font-size:18px;
 	line-height:36px;
 	text-align:center;
-	color:#fff;	
+	color:#000000;	
 	}
 ul.nav li a.active{ color:#ffb300;}
 ul.nav li:last-child{margin:0 0 0 17px;}
