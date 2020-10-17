@@ -54,7 +54,7 @@ a.bnrbtn1, a.bnrbtn2, a.s4btn{
 }
 a.bnrbtn2 {
 	background:none;
-	border:2px solid #ffb300;
+	border:2px solid rgb(255,0,0);
 	color:#fff;
 	line-height:52px;
 }
