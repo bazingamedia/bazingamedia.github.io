@@ -39,7 +39,7 @@
 a.bnrbtn1, a.bnrbtn2, a.s4btn{
 	height:56px;
 	width:224px;
-	background:#ffb300;
+	background:	rgb(255,0,0);
 	border:none;	
 	border-radius:4px;
 	font-weight:bold;
