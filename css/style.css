@@ -110,9 +110,7 @@ CSS FOR CONTAINERS BREAK POINTS
 CSS FOR HEADER
 ===========================*/
 .topcontainer{
-	background:#232323 url(../images/banimg.jpeg);
-	width: 100%;
-	z-index: 0;
+	background:#232323 url(../images/banner.jpg) center top no-repeat;
 	overflow:hidden;
 }
 .top-fix-bar {margin-bottom: 80px;}
@@ -572,7 +570,7 @@ ul.s3list li{width:100%;margin:35px 0 0 0;}
 	width:234px;
 	margin:44px auto 0 auto;
 	display:block;
-	background:url(../images/submit1.jpg) center top no-repeat;
+	background:url(../images/submit1.) center top no-repeat;
 	border:none;
 	outline:none;
 }
