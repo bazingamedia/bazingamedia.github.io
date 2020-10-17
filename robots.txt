@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.brandbolt.co/sitemap.xml
+Sitemap: http://www.brandbolt.co/sitemap_1.xml
+Sitemap: http://www.brandbolt.co/sitemap_2.xml
+Sitemap: http://www.brandbolt.co/sitemap_3.xml
+Sitemap: http://www.brandbolt.co/sitemap_4.xml
+Sitemap: http://www.brandbolt.co/sitemap_5.xml
