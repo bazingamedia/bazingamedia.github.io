@@ -473,14 +473,14 @@ ul.s3list li img{margin:0 auto;display:block;}
 	font-weight:300;
 	font-size:14px;
 	line-height:22px;
-	color:#cdcdcd;
+	color:#fff;
 	text-align:center;
 	padding:30px 0 0 0;
 }
 .s3ltxt span{
 	font-weight:bold;
 	font-size:20px;
-	color:#ffb300;
+	color:#fff;
 }
 @media only screen and (max-width: 1179px){
 .sec2{background-size:cover;padding:70px 0;}
