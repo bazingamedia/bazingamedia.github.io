@@ -11,7 +11,11 @@
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/T9w1ROdplctW2nVKvNJYXH8o/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-3QFmGa9WBVUnmTTGehi+1Uin1pmBuS/I5R1Ce52Aiiuviet65v+bH12eR4+kUUcx"></script>
 <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
-
+ <script>
+            $("#cmdSubmit").click(function () {
+                //need to validate the captcha
+            });
+        </script> 
 </head>
 
 <body>
@@ -275,6 +279,7 @@ $(document).scroll(function() {
 });
 
 </script>
+
 <script type="text/javascript">
 
 
@@ -283,6 +288,13 @@ function validate() {
 
   
 var errors = new Array();
+var response = grecaptcha.getResponse();
+
+if(response.length == 0)
+    //reCaptcha not verified
+
+else
+    //reCaptch verified
 
 var googleResponse = jQuery('#g-recaptcha-response').val();
 if (!googleResponse) {
