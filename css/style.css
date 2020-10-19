@@ -157,7 +157,7 @@ ul.nav li a{
 	text-align:center;
 	color:#000000;	
 	}
-ul.nav li a.active{ color:#ffb300;}
+ul.nav li a.active{ color:#E32826;}
 ul.nav li:last-child{margin:0 0 0 17px;}
 ul.nav li:last-child a{
 	padding:0 24px;	
@@ -167,7 +167,7 @@ ul.nav li:last-child a{
 	border-radius:5px;
 	font-size:16px;
 	line-height:32px;
-	color:#ffb300;
+	color:#E32826;
 	text-align:center;	
 }
 #menu-wrapper {
