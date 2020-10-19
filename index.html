@@ -284,9 +284,9 @@ function validate() {
   
 var errors = new Array();
 
-var googleResponse = jQuery('.g-recaptcha').val();
+var googleResponse = jQuery('#g-recaptcha-response').val();
 if (!googleResponse) {
-    errors.push("Please Validat Captcha");
+    errors.push("Please validate Captcha");
   }
 
 if(document.myForm.fName.value == "" ){
