@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/common.css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
+ <script src="https://www.google.com/recaptcha/api.js"></script>
 
 </head>
 
@@ -230,7 +231,11 @@
         <p class="ftrtxt2">Copyright © <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> Bazinga Media. <br class="show-479">All Rights Reserved.</p>        
     </div>
 </footer>
-
+<script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
 
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/jquery.scroller.js"></script>
@@ -276,6 +281,7 @@ function validate() {
 
   
 var errors = new Array();
+
 
 var googleResponse = jQuery('#g-recaptcha-response').val();
 if (!googleResponse) {
@@ -347,6 +353,9 @@ $('#submit-test-form').prop('disabled', true);
 }
 </script>
 
-
+<button class="g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>
 </body>
 </html>
