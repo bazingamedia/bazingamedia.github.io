@@ -226,7 +226,7 @@ ul.nav li:last-child a{
     overflow-x: hidden;
     left: -100%;
 	top:70px;	
-	background:#ffb300;	
+	background:#fff;	
 }
 #menu-container .menu-list  li a{
 	font-size:18px;
