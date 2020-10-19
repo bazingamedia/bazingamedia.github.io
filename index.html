@@ -215,7 +215,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <button type="submit" value="" class="submit"></button> -->
+            <button type="submit" value="" class="submit"></button>
             <div class="g-recaptcha" data-sitekey="6LfzxKYZAAAAAC7wx01RNzsiGxjpDUyFhrPL8jsg"></div>
 
             <input type="submit" name="submit" value="" class="submit" id="submit-test-form">
@@ -277,7 +277,7 @@ function validate() {
   
 var errors = new Array();
 
-var googleResponse = jQuery('#g-recaptcha').val();
+var googleResponse = jQuery('#g-recaptcha-response').val();
 if (!googleResponse) {
     errors.push("Please Validat Captcha");
   }
