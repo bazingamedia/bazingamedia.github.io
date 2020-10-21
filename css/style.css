@@ -374,15 +374,15 @@ ul.s1list li{margin:40px 0 0 0;}
 	background:#232323 url(../images/useban.jpg) center -230px no-repeat;	
 }
 .banner{padding:20px 0 100px 0;height:558px;height:auto;}
-.bnrimg{width:85px; height: 70px;}
+.bnrimg{width:85px; height: 85px;}
 h1 {  
     font-size: 27px;
     line-height: 40px;    
     padding: 14px 0 0 0;
 }
 .bnrtxt { 
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 19px;
+    line-height: 27px;
 }
 ul.bnrbtn-list li{margin:10px 4px;}
 .sec1{padding:0 0 40px 0;}
@@ -401,7 +401,7 @@ ul.s1list li{width:100%;}
 .topcontainer{
 	background:#232323 url(../images/useban.jpg) center -270px no-repeat;	
 }
-.bnrimg{width:85px; height: 70px;}
+.bnrimg{width:85px; height: 85px;}
 .sec1-box {padding: 0 0 46px 0;}
 h1 {
     font-size: 24px;
