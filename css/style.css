@@ -9,7 +9,7 @@ img, object, embed, video {
 /* IE 6 does not support max-width so default to width 100% */
 .ie6 img {width:100%;}
 body{
-	font-family: sans-serif;
+	font-family:HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif ;
 	font-weight:normal;
 	color: #3f3f3f;
 	-webkit-font-smoothing: antialiased;
