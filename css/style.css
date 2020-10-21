@@ -47,6 +47,7 @@ a{text-decoration:none;}
 CSS FOR CONTAINERS BREAK POINTS
 =================================*/
 .bdhding1{	
+	font-family: adelle;
 	font-weight:300;
 	font-size:40px;	
 	line-height:42px;
@@ -54,6 +55,7 @@ CSS FOR CONTAINERS BREAK POINTS
 	text-align:center;		
 }
 .bdhding2{
+	font-family: adelle;
 	font-weight:bold;
 	font-size:52px;
 	line-height:54px;
@@ -99,11 +101,13 @@ CSS FOR CONTAINERS BREAK POINTS
 @media only screen and (max-width: 479px){
 .bdhding1{
 	font-size:28px;	
-	line-height:30px;		
+	line-height:30px;	
+	font-family: adelle;	
 }
 .bdhding2{
 	font-size:34px;
 	line-height:36px;
+	font-family: adelle;
 }
 }
 /*=========================
@@ -376,6 +380,7 @@ ul.s1list li{margin:40px 0 0 0;}
 .banner{padding:20px 0 100px 0;height:558px;height:auto;}
 .bnrimg{width:85px; height: 85px;  margin-bottom:7px;}
 h1 {  
+	font-family: adelle;
     font-size: 31px;
     line-height: 40px;    
     padding: 14px 0 0 0;
@@ -516,7 +521,7 @@ ul.s3list li{width:100%;margin:35px 0 0 0;}
 	padding:70px 0 80px 0;	
 	background:url(../images/sec4.jpg) center top no-repeat;
 }
-.s4hding{text-align:left;}
+.s4hding{text-align:left;font-family: adelle;}
 .s4txt{
 	text-align:left;
 	padding:30px 0 0 0;
