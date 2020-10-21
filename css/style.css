@@ -371,10 +371,10 @@ ul.s1list li{margin:40px 0 0 0;}
 }
 @media only screen and (max-width: 767px){
 .topcontainer{
-	background:#232323 url(../images/mobbanner.webp) center -230px no-repeat;	
+	background:#232323 url(../images/ban1.webp) center -230px no-repeat;	
 }
 .banner{padding:20px 0 100px 0;height:558px;height:auto;}
-.bnrimg{width:110px;}
+.bnrimg{width:110px; height: 70px;}
 h1 {  
     font-size: 31px;
     line-height: 33px;    
@@ -399,9 +399,9 @@ ul.s1list li{width:100%;}
 }
 @media only screen and (max-width: 479px){
 .topcontainer{
-	background:#232323 url(../images/mobbanner.webp) center -270px no-repeat;	
+	background:#232323 url(../images/ban1.webp) center -270px no-repeat;	
 }
-.bnrimg{width:150px;}
+.bnrimg{width:150px; height: 70px;}
 .sec1-box {padding: 0 0 46px 0;}
 h1 {
     font-size: 29px;
