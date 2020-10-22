@@ -139,9 +139,9 @@ CSS FOR HEADER
 	}
 .logo{
 	float:left;
-	margin:25px 0 0 0;
-	width: 150px;
-	height: 40px;
+	margin: 20px 0 0 0;
+	width: 120px;
+	height: 43px;
 }
 .hdrbtn, ul.nav{
 	float:right;
@@ -580,6 +580,11 @@ ul.s3list li{width:100%;margin:35px 0 0 0;}
 	background:url(../images/submit1.jpg)center top no-repeat;
 	border:none;
 	outline:none;
+}
+.contactinfo{
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
 }
 @media only screen and (max-width: 1179px){
 .s4txt {width: 62%;}
