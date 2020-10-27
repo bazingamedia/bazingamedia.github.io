@@ -375,7 +375,7 @@ ul.s1list li{margin:40px 0 0 0;}
 }
 @media only screen and (max-width: 767px){
 .topcontainer{
-	background:#232323 url(../images/useban.jpg) center -230px no-repeat;	
+	background:#232323 url(../images/mobileban.jpeg) center -230px no-repeat;	
 }
 .banner{padding:20px 0 100px 0;height:558px;height:auto;}
 .bnrimg{width:85px; height: 85px;  margin-bottom:7px;}
@@ -585,6 +585,9 @@ ul.s3list li{width:100%;margin:35px 0 0 0;}
 	color: #fff;
 	text-align: center;
 	font-size: 25px;
+}
+address{
+		padding-left: 45%;
 }
 @media only screen and (max-width: 1179px){
 .s4txt {width: 62%;}
