@@ -276,7 +276,7 @@ h1{
 }
 .bnrtxt{
 	font-weight:300;
-	font-size:23px;
+	font-size:2px;
 	text-shadow: 3px 2px black;  
 	line-height:32px;
 	color:#fff;
@@ -351,7 +351,7 @@ ul.s1list li img{margin:0 auto 8px auto;display:block;}
 .s1lbr{display:none;}
 @media only screen and (max-width: 1179px){
 h1 {
-    font-size: 39px;
+    font-size: 43px;
     line-height: 41px;
 }
 ul.s1list li {padding: 0 2%;}
