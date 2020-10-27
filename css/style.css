@@ -276,7 +276,7 @@ h1{
 }
 .bnrtxt{
 	font-weight:300;
-	font-size:2px;
+	font-size:23px;
 	text-shadow: 3px 2px black;  
 	line-height:32px;
 	color:#fff;
@@ -381,7 +381,7 @@ h1 {
     padding: 14px 0 0 0;
 }
 .bnrtxt { 
-    font-size: 18px;
+    font-size: 28px;
     line-height: 27px;
 }
 ul.bnrbtn-list li{margin:10px 4px;}
