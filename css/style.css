@@ -47,7 +47,6 @@ a{text-decoration:none;}
 CSS FOR CONTAINERS BREAK POINTS
 =================================*/
 .bdhding1{	
-	font-family: adelle;
 	font-weight:300;
 	font-size:40px;	
 	line-height:42px;
@@ -55,7 +54,6 @@ CSS FOR CONTAINERS BREAK POINTS
 	text-align:center;		
 }
 .bdhding2{
-	font-family: adelle;
 	font-weight:bold;
 	font-size:52px;
 	line-height:54px;
@@ -102,13 +100,11 @@ CSS FOR CONTAINERS BREAK POINTS
 .bdhding1{
 	font-size:28px;	
 	line-height:30px;	
-	font-family: adelle;	
-}
+	}
 .bdhding2{
 	font-size:34px;
 	line-height:36px;
-	font-family: adelle;
-}
+	}
 }
 /*=========================
 CSS FOR HEADER
@@ -270,7 +266,7 @@ ul.nav, a.hdrbtn, .prdhdrbtn{display:none;}
 }
 h1{
 	font-weight:500;
-	font-size:42px;
+	font-size:45px;
 	line-height:44px;
 	color:#fff;
 	text-shadow: 2px 2px black;
@@ -280,8 +276,8 @@ h1{
 }
 .bnrtxt{
 	font-weight:300;
-	font-size:20px;
-	text-shadow: 2px 3px black;  
+	font-size:23px;
+	text-shadow: 3px 2px black;  
 	line-height:32px;
 	color:#fff;
 	text-align:center;
@@ -520,7 +516,7 @@ ul.s3list li{width:100%;margin:35px 0 0 0;}
 	padding:70px 0 80px 0;	
 	background:url(../images/sec4.jpg) center top no-repeat;
 }
-.s4hding{text-align:left;font-family: adelle;}
+.s4hding{text-align:left;}
 .s4txt{
 	text-align:left;
 	padding:30px 0 0 0;
@@ -558,7 +554,7 @@ ul.s3list li{width:100%;margin:35px 0 0 0;}
 	width:100%;
 	background:#fff;
 	border-radius:4px;
-	font-family: 'Brother 1816';
+	font-family: 'HelveticaNeue';
 	font-size:18px;
 	color:#424242;
 	text-align:left;
