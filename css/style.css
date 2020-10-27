@@ -375,7 +375,7 @@ ul.s1list li{margin:40px 0 0 0;}
 }
 @media only screen and (max-width: 767px){
 .topcontainer{
-	background:#232323 url(../images/mobileban.jpg) center -230px no-repeat;	
+	background:#232323 url(../images/mban.jpeg) center -230px no-repeat;	
 }
 .banner{padding:20px 0 100px 0;height:558px;height:auto;}
 .bnrimg{width:85px; height: 85px;  margin-bottom:7px;}
@@ -403,7 +403,7 @@ ul.s1list li{width:100%;}
 }
 @media only screen and (max-width: 479px){
 .topcontainer{
-	background:#232323 url(../images/mobileban.jpg) center -270px no-repeat;	
+	background:#232323 url(../images/mban.jpeg) center -270px no-repeat;	
 }
 .bnrimg{width:85px; height: 85px; margin-bottom:7px;}
 .sec1-box {padding: 0 0 46px 0;}
