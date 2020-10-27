@@ -202,7 +202,7 @@
             <p class="contactinfo">
         Please feel free to reach out to us at 
         <br><br>
-        <address><a href="mailto:emailbazinga@gmail.com">emailbazinga@gmail.com</a></address>
+        <address id="one"><a href="mailto:emailbazinga@gmail.com">emailbazinga@gmail.com</a></address>
 </div> 
 
 <footer>
@@ -213,7 +213,7 @@
 </footer>
 
 
-<!-- <script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/jquery.scroller.js"></script>
 <script src="js/bookmarkscroll.js"></script>
 <script src="js/animated-1.0.0.js"></script>
@@ -249,83 +249,6 @@ $(document).scroll(function() {
 });
 
 </script>
-
-<script type="text/javascript">
-
-
-
-function validate() {
-
-  
-var errors = new Array();
-
-
-// var googleResponse = jQuery('#g-recaptcha-response').val();
-// if (!googleResponse) {
-//     errors.push("Please validate Captcha");
-//   }
-
-if(document.myForm.fName.value == "" ){
- errors.push('Please provide your first name!');
-
-}
-
-if(document.myForm.lName.value == "" ){
-
-errors.push('Please provide your last name!');
-
-}
-
-if( document.myForm.EMail.value == "" ){
-
-errors.push('Please provide your Email!');
-
-}
-
-if(document.myForm.message.value == ""){
-
-errors.push('Please provide your Message!');
-
-}
-
-
-
-if (errors.length == 0) {
-
-$('#submit-test-form').prop('disable', true);
-
-  var page_ajax = 'sendmail.php';
-
-        $.ajax({
-
-            type: 'POST',
-
-            url: page_ajax,
-
-            data: $('#myForm').serialize(),
-
-            success: function(response) {
-
-                alert(response);
-            }
-
-        });
-
-        return false;
-
-    }else{
-      var errorlist ="";
-      errors.forEach(function(item, index) {
-       errorlist += item + "\n";
-});
-
-      alert(errorlist);
-
-       
-    } 
-
-}
-</script> -->
 
 
 </body>
