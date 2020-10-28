@@ -589,9 +589,20 @@ address a{
 address a:hover {
   color: white;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 814px) {
   address {
-    margin-left:-150px;
+    margin-right:125px;
+    /*text-align: center; */
+  }
+}
+@media only screen and (max-width: 1024px) {
+  address {
+     margin-right:80px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  address {
+    margin-left:-70px;
   }
 }
 @media only screen and (max-width: 1179px){
