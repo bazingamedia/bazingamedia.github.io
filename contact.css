@@ -1,5 +1,5 @@
 body{
-    background-image: url('banner-mob.jpg');
+border: 2px solid red;
 }
 div.elem-group {
   margin: 40px 0;
