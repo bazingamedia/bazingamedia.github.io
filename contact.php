@@ -1,5 +1,6 @@
 <?php
-  
+  include 'contact.html';
+
 if($_POST) {
     $visitor_name = "";
     $visitor_email = "";
@@ -65,9 +66,9 @@ if($_POST) {
     .'From: ' . $visitor_email . "\r\n";
       
     if(mail($recipient, $email_title, $email_body, $headers)) {
-        echo '<Script>alert("Thank you for contacting us, $visitor_name. You will get a reply within 24 hours.")</Script>';
+        echo '<script>alert("Thank you for contacting us, $visitor_name. You will get a reply within 24 hours.")</script>';
     } else {
-        echo '<Script>alert("We are sorry but the email did not go through.")</Script>';
+        echo '<script>alert("We are sorry but the email did not go through.")</script>';
     }
       
 } else {
