@@ -1,5 +1,22 @@
 body{
-border: 2px solid red;
+   background-color: black;
+   color: white;
+   background:url(../images/banimg.jpeg); 
+}
+.conform{
+height: 45%;
+width: 40%;
+border: 2px solid black;
+margin-left: 30%;
+margin-top: 2%;
+background-color: black;
+}
+
+h2{
+  text-align:center;
+  font-family: fantasy;
+  color: white;
+  font-size: 30px;
 }
 div.elem-group {
   margin: 40px 0;
@@ -13,13 +30,16 @@ label {
 }
 
 input, select, textarea {
-  border-radius: 2px;
-  border: 1px solid #ccc;
+  border-radius: 10px;
+  border: 2px solid white;
   box-sizing: border-box;
   font-size: 1.25em;
   font-family: 'Aleo';
   width: 500px;
   padding: 8px;
+  background-color: black;
+  color: white;
+
 }
 
 textarea {
@@ -27,7 +47,7 @@ textarea {
 }
 
 button {
-  height: 50px;
+  height: 20px;
   background: green;
   color: white;
   border: 2px solid darkgreen;
@@ -39,4 +59,19 @@ button {
 
 button:hover {
   border: 2px solid black;
+}
+.bnrimage{
+  height: 200px;
+  width: 200px
+}
+#submit{
+  width: 20%;
+  margin-left: 55%;
+  background-color: green;
+  color: white;
+}
+#reset{
+  width: 20%;
+  background-color: #E32826;
+  color: white;
 }

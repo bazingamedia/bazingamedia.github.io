@@ -1,38 +1,46 @@
+<!DOCTYPE html>
 <html>
 <head>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
+<body style="background-image: url('../banimg.jpeg');">
 
-<body>
-<img src="images/banner-mob.jpg" alt="" class="bnrimage">
-
-<form action="contact.php" method="post">
-  <div class="elem-group">
-    <label for="name">Your Name</label>
-    <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
-  </div>
-  <div class="elem-group">
-    <label for="email">Your E-mail</label>
-    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
-  </div>
-  <div class="elem-group">
-    <label for="department-selection">Choose Concerned Department</label>
-    <select id="department-selection" name="concerned_department" required>
-        <option value="">Select a Department</option>
-        <option value="billing">Billing</option>
-        <option value="marketing">Marketing</option>
-        <option value="technical support">Technical Support</option>
-    </select>
-  </div>
-  <div class="elem-group">
-    <label for="title">Reason For Contacting Us</label>
-    <input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password" pattern=[A-Za-z0-9\s]{8,60}>
-  </div>
-  <div class="elem-group">
-    <label for="message">Write your message</label>
-    <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
-  </div>
-  <button type="submit">Send Message</button>
+<h2>Contact Us </h2>
+<div class="conform">
+<form action="mailto:srishti@bazingamedia.in" method="post" enctype="text/plain">
+  <table>
+    <tr>
+      <td><label >Name:</label></td>
+      <td><input type="text" name="name" required></td>
+</tr>
+<tr>
+  <td><label for="position">Job Profile:</label></td>
+  <td><select name="position" id="position" cols="22">
+    <option value="marketing">Marketing</option>
+    <option value="voiceProcess">Voice Process</option>
+    <option value="operations">Operations</option>
+    <option value="technical">Technical</option>
+  </select></td>
+  </tr>
+<tr>
+  <td><label>E-Mail:</label></td>
+  <td><input type="text" name="mail" required></td>
+</tr>
+<tr>
+  <td><label for="w3review">Comments:</label></td>
+<td><textarea id="w3review" name="Comments" rows="4" cols="22">
+</textarea></td>
+</tr>
+<tr>
+  <td><label for="resume">Select a file:</label></td>
+  <td><input type="file" id="resume" name="resume"></td>
+ </tr>
+  </table>
+  <br><br>
+<input id="reset" type="reset" value="Reset">
+<input id="submit" type="submit" value="Send">
 </form>
+</div>
 </body>
 </html>
