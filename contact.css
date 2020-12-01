@@ -1,20 +1,28 @@
 body{
-   background-color: black;
+   background-color: transparent;
+   background-image: url("images/new2.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
    color: white;
-   background:url(../images/banimg.jpeg); 
 }
 .conform{
 height: 45%;
-width: 40%;
-border: 2px solid black;
+width: 39%;
+/*border: 2px solid black;*/
 margin-left: 30%;
+padding: 1%;
 margin-top: 2%;
-background-color: black;
+background-color: transparent;
+border-radius: 8px;
+}
+.conform:hover{
+ box-shadow: 2px 3px 10px silver;
+
 }
 
 h2{
   text-align:center;
-  font-family: fantasy;
+  font-family: 'HelveticaNeue';
   color: white;
   font-size: 30px;
 }
@@ -24,7 +32,7 @@ div.elem-group {
 
 label {
   display: block;
-  font-family: 'Aleo';
+  font-family: ''HelveticaNeue'';
   padding-bottom: 4px;
   font-size: 1.25em;
 }
@@ -34,7 +42,7 @@ input, select, textarea {
   border: 2px solid white;
   box-sizing: border-box;
   font-size: 1.25em;
-  font-family: 'Aleo';
+  font-family: ''HelveticaNeue'';
   width: 500px;
   padding: 8px;
   background-color: black;
@@ -52,7 +60,7 @@ button {
   color: white;
   border: 2px solid darkgreen;
   font-size: 1.25em;
-  font-family: 'Aleo';
+  font-family: ''HelveticaNeue'';
   border-radius: 4px;
   cursor: pointer;
 }
@@ -66,7 +74,7 @@ button:hover {
 }
 #submit{
   width: 20%;
-  margin-left: 55%;
+  margin-left: 58%;
   background-color: green;
   color: white;
 }

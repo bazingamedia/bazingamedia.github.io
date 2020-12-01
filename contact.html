@@ -1,46 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 <link rel="stylesheet" type="text/css" href="contact.css">
-</head>
-<body style="background-image: url('../banimg.jpeg');">
 
-<h2>Contact Us </h2>
-<div class="conform">
-<form action="mailto:srishti@bazingamedia.in" method="post" enctype="text/plain">
-  <table>
-    <tr>
-      <td><label >Name:</label></td>
-      <td><input type="text" name="name" required></td>
-</tr>
-<tr>
-  <td><label for="position">Job Profile:</label></td>
-  <td><select name="position" id="position" cols="22">
-    <option value="marketing">Marketing</option>
-    <option value="voiceProcess">Voice Process</option>
-    <option value="operations">Operations</option>
-    <option value="technical">Technical</option>
-  </select></td>
-  </tr>
-<tr>
-  <td><label>E-Mail:</label></td>
-  <td><input type="text" name="mail" required></td>
-</tr>
-<tr>
-  <td><label for="w3review">Comments:</label></td>
-<td><textarea id="w3review" name="Comments" rows="4" cols="22">
-</textarea></td>
-</tr>
-<tr>
-  <td><label for="resume">Select a file:</label></td>
-  <td><input type="file" id="resume" name="resume"></td>
- </tr>
-  </table>
-  <br><br>
-<input id="reset" type="reset" value="Reset">
-<input id="submit" type="submit" value="Send">
+<form action="https://formspree.io/srishti@bazingamedia.in" method="POST">
+    <input type="hidden" name="_subject" value="Bolaji's Form">                 
+    <input type="hidden" name="_next" value="/thanks.html" >
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="text" name="phone">
+    <input type="submit" value="Send">
 </form>
-</div>
-</body>
-</html>
